@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SendMessageByPhone/1.0.0": {
+        "dependencies": {
+          "MiniExcel": "1.35.0"
+        },
+        "runtime": {
+          "SendMessageByPhone.dll": {}
+        }
+      },
+      "MiniExcel/1.35.0": {
+        "runtime": {
+          "lib/net8.0/MiniExcel.dll": {
+            "assemblyVersion": "1.35.0.0",
+            "fileVersion": "1.35.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SendMessageByPhone/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniExcel/1.35.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K8z/meIMIVKwM4OwQqqDY97IdeEjlHTlozhNIdGsL9YJUr5VbaNE5jK5MMWVCphWTVceilsUY4Vmy3Y5wjEGAw==",
+      "path": "miniexcel/1.35.0",
+      "hashPath": "miniexcel.1.35.0.nupkg.sha512"
+    }
+  }
+}
